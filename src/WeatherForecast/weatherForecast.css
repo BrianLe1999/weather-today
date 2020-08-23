@@ -1,0 +1,98 @@
+.background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.3s;
+
+}
+
+@media screen and (max-width: 650px) {
+    .welcome-message{
+      font-size: 30px;
+    }
+    .search-bar {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .search-button{
+      width: 100%;
+      margin-left: 15%;
+      margin-right: 15%;
+      order: 0;
+    }
+    .query-btn {
+      width: 30%;
+      order: 1;
+      margin-left: 20%;
+    }
+    .change-unit-btn {
+      width: 30%;
+      order: 2;
+      margin-right: 20%;
+    }
+    .change-btn {
+      justify-content: center;
+      position:relative;
+      margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+  .welcome-message {
+    font-size: 42px;
+  }
+  .search-bar {
+    display:flex;
+    width: 100%;
+  }
+  .search-button {
+    width: 70%;
+  }
+  .query-btn  {
+    width: 10%;
+
+  }
+  .change-unit-btn {
+    width: 10%;
+    position: relative;
+    justify-content: center;
+  }
+  .change-btn{
+    margin-top: 20px;
+  }
+
+}
+
+.error {
+  margin-top: 20px;
+  height: 100%;
+}
+
+.welcome {
+  height: 5%;
+}
+
+.welcome-message{
+  height: 100%;
+  color: rgba(252, 251, 247, 1);
+  font-weight: 700;
+}
+
+.current-displayed-weather {
+  width: 100%;
+}
+
+.hourly-forecast-bar {
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#range-slider {
+  width: 90%;
+}

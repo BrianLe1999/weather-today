@@ -1,0 +1,51 @@
+@media screen and (max-width: 650px) {
+    .searchBox {
+      width: 100%;
+    }
+    .searchLocation {
+      width: 100%;
+    }
+    .searchSymbol {
+      justify-content: center;
+      position: relative;
+      margin-top: 10px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+  .searchBox {
+    width: 75%;
+  }
+
+  .searchSymbol {
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+
+
+}
+.searchBox {
+  float:right;
+  margin-top: 20px;
+  height: calc(1.5em + .75rem + 1px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-style: none;
+  border-radius: 20px;
+  border: solid 2px black;
+}
+
+
+
+
+input {
+  outline: none;
+}

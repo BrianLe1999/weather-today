@@ -1,0 +1,127 @@
+@media screen and (max-width: 1100px) {
+  .seven-day-forecast {
+    flex-wrap: wrap;
+  }
+  .daily-forecast{
+    width: 100%;
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .date {
+    order: 1;
+  }
+  .icon {
+    order: 2;
+    padding: 2%;
+    height: 100%;
+  }
+  .temp {
+    order: 3;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .max {
+    width: 100%;
+  }
+  .min {
+    width: 100%;
+  }
+  .title{
+    order: 4;
+  }
+  .item {
+    padding: 2%;
+  }
+}
+@media screen and (max-width: 601px) {
+  .date {
+    width: 26%;
+  }
+
+  .icon {
+    width: 20%;
+  }
+
+  .temp {
+    width: 26%;
+  }
+
+  .title {
+    width: 26%;
+  }
+  .max-temp {
+    font-size: 18px;
+  }
+
+  .min-temp {
+    font-size: 15px;
+  }
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  .max-temp {
+    font-size: 26px;
+  }
+
+  .min-temp {
+    font-size: 22px;
+  }
+
+  .date {
+    width: 26%;
+    font-size: 26px;
+  }
+
+  .icon {
+    width: 20%;
+  }
+
+  .temp {
+    width: 26%;
+  }
+
+  .title {
+    width: 26%;
+    font-size: 26px;
+  }
+
+
+
+}
+
+@media screen and (min-width: 1102px) {
+    .daily-forecast {
+      width: 12%;
+      margin-top: 20px;
+      margin-left: 5px;
+    }
+    .max-temp {
+      font-size: 18px;
+    }
+
+    .min-temp {
+      font-size: 15px;
+    }
+
+}
+
+.seven-day-forecast {
+  display:flex;
+}
+
+.daily-forecast {
+  background-color: rgba(220, 227, 226, 0.5); /*light-green*/
+  color: rgba(252, 251, 247, 1);
+  font-weight: 700;
+}
+
+.date, .max-temp, .min-temp {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
