@@ -6,6 +6,7 @@ import CurrentWeather from "./currentWeather.js"; // component for displaying cu
 import ChangeUnit from "./changeUnit.js"; // change unit button
 import ForecastHourly from "./forecastHourly.js"; // import the component for hourly forecast
 import ForecastDaily from "./forecastDaily.js"; // import the component for daily forecast
+import Loading from "./loading.js";
 import weatherIcons from "./weatherIcons.js"; // get weather icons and backgrounds
 
 export default class WeatherForecast extends React.Component {
@@ -215,7 +216,7 @@ export default class WeatherForecast extends React.Component {
     // render this if the page is still loading
     if (this.state.isLoading) {
       return (
-              <h1>Loading</h1>
+          <div><Loading/></div>
       );
     }
     // render this if errors occurred
