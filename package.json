@@ -2,7 +2,7 @@
   "name": "weather_today",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BrianLe1999.github.io/weather-today/index.html",
+  "homepage": "https://BrianLe1999.github.io/weather-today",
   "dependencies": {
     "-": "0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
